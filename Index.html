@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UADE GYM</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>UADE GYM</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="img/Mancuerna.webp" alt="Gimnasio" />
+            <h2>¡Consegui los resultados que buscas!</h2>
+          </section>
+
+        <section class="formulario">
+            <h2>Formulario de Registro</h2>
+            <form action="#" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="plan">Plan:</label>
+            <select id="plan" name="plan">
+                <option value="mensual">Mensual</option>
+                <option value="trimestral">Trimestral</option>
+                <option value="anual">Anual</option>
+            </select>
+
+            <label for="horario">Horario preferido:</label>
+            <select id="horario" name="horario">
+                <option value="mañana">Mañana (6 a 12 hs)</option>
+                <option value="tarde">Tarde (13 a 17 hs)</option>
+                <option value="noche">Noche (18 a 22 hs)</option>
+            </select>
+
+            <label><input type="checkbox" required> Acepto los términos y condiciones</label>
+
+            <button type="submit">Registrarme</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 UADE GYM. Todos los derechos reservados.</p>
+      </footer>
+    
+</body>
+</html>
